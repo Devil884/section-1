@@ -7,3 +7,12 @@ const fruit = ['apple','lichi','guva','graph'];
 for(let f of fruit){
     console.log(f);
 }
+let a = 10;
+while(a<20){
+    console.log(a);
+    a+=2;
+}
+let b = 10;
+do{
+    console.log(b);
+} while(b>20) z
