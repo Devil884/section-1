@@ -16,6 +16,30 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <style>
+            .container{
+                justify-content: center;
+            }
+            .card-container{
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                margin-top: 100px;
+
+            }
+            .card{
+                justify-content: center;
+                display: flex;
+                background-color: rgba(21, 89, 197, 0.279);
+                height: 70vh;
+                width: 70vh;
+                text-align: center;
+                border-radius: 50px;
+            }
+           
+            
+
+        </style>
     </head>
     
 
@@ -24,21 +48,35 @@
             <!-- place navbar here -->
         </header>
         <main>
-            <div class="card text-center">
-                <div class="card-body" >
-                    
-                    <button class="btn btn-secondary">Use map</button>
-                    <p class="card-text">Body</p>
-                </div>
-            </div>
             
-           <div>
-hello
-
+            <div class="container" style="background-color: rgba(0, 170, 255, 0.333); width: 80%; border-radius: 50%;" >
+                
+            <div class="card-container"  >
+                <div class="card">
+                    <div
+                        class="card text-white "
+                    >
+                        <img class="card-img-top" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Why-get-certified-in-Artificial-Intelligence.jpg" alt="Title" style="height: 80%; width: 100%; justify-content: center;" />
+                        <div class="card-body">
+                            <h1 class="card-title">Wellcome to Tellcome</h1>
+                            <div  class="text-input-area">
+                            <h2>User name</h2>
+                            <label for="text-input-area"></label>
+                            <input type="text">
+                            <br>
+                            <button type="button" class="btn btn-danger" style="border-radius: 20px;">SinUP</button>
+                            </div>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <button type="button" class="btn btn-success" style="border-radius: 20px;">Login</button>
+                        </div>
+                        </div>
                     </div>
-
-                </div>
             </div>
+            </div>
+                </div>
+           </div>
         </main>
         <footer>
             <!-- place footer here -->
